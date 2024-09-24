@@ -14,8 +14,6 @@
             $randomString = randomString(10);
             // 각 답변을 데이터베이스에 삽입
             foreach ($answers as $value) {
-                
-
                 // 데이터 바인딩 및 실행
                 $result->execute([
                     $randomString,
