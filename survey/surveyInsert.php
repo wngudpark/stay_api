@@ -33,7 +33,6 @@
             echo json_encode($response);
 
         } catch (Exception $e) {
-
             // 에러 처리
             $response = [
                 'success' => false,

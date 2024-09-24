@@ -39,7 +39,6 @@
     }
 
     // 이후에 $page_name을 사용하여 로직 수행
-
     // SQL 쿼리에서 page_name 사용
     $sql = "SELECT id, question_order FROM survey_question_set WHERE page_name = '$page_name'";
     $result = rf_mysql_arr($sql, $DB);
