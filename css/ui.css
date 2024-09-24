@@ -1,0 +1,44 @@
+.paginationjs-pages {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.paginationjs-pages li {
+    display: inline !important;
+}
+.no-data-message{
+    font-size: 1.25em;
+    color: #6c757d;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+.mb-3{
+    text-align: center;
+}
+.area {
+    /* Set the dimensions as needed */
+    width: 130%; /* For example, 80% of the parent container */
+    height: 100%; /* Needs to be adjusted based on your layout */
+    margin: auto; /* Center the area */
+    transform: translate(-15%);
+    
+  }
+  
+  #resultDiv {
+    width: 100%; /* Full width of the parent (.area) */
+  }
+  
+  #resultDiv table {
+    width: 100%; /* Full width of the parent (#resultDiv) */
+  }
+  
+  #resultDiv td, 
+  #resultDiv th {
+    text-align: center; /* Center the content in the middle of the cell */
+    vertical-align: middle;
+  }
